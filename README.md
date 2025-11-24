@@ -45,10 +45,10 @@ Example inference code:
 from ultralytics import YOLO
 
 # Load trained model
-model = YOLO("Vityarthi-Project/best.pt")
+model = YOLO("Brain-Tumor-Detection/best.pt")
 
 # Predict on an image
-results = model("Vityarthi-Projec/test_images/test1.jpg")
+results = model("Brain-Tumor-Detection/test1.jpg")
 
 # Display result
 results[0].show()
@@ -73,32 +73,13 @@ https://github.com/user-attachments/assets/35e2736a-0361-4c90-a5da-b2ec3f13ae20
 
 Clone the repo:
 
-!git clone https://github.com/Varun-XD-MSI/Vityarthi-Project.git
-cd Vityarthi-Project
+!git clone https://github.com/naksh2729-ai/Brain-Tumor-Detection
+cd Brain-Tumor-Detection
 
 
 Run inference:
 
 python inference.py --image test_images/sample.jpg --model best.pt
-
-
-
-
-📁 Test Images
-
-A folder test_images/ is included so anyone can run the model immediately.
-
-You can add your own MRI scans here:
-<br><br/>
-
-test_images/
-<br><br/>
-├── test1.jpg
-<br><br/>
-├── test2.jpg
-<br><br/>
-
-
 
 
 🧩 What This Model Does
