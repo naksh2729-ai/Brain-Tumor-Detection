@@ -136,3 +136,67 @@ AI-based prediction of stress or productivity patterns
 Cloud storage or mobile app version
 
 AI-based prediction of stress or productivity patterns
+
+## Screenshots
+
+## **Screenshot of Program After Execution**
+
+<img width="1256" height="234" alt="Screenshot 2025-11-25 222130" src="https://github.com/user-attachments/assets/6c8abe97-deb9-499b-8962-45d1d7e850f1" />
+
+## **Uploading Logs in Program**
+
+<img width="584" height="680" alt="Screenshot 2025-11-25 222249" src="https://github.com/user-attachments/assets/2145be2b-cf0f-4c01-bae9-edf62cf3916c" />
+
+## **Updated CSV file**
+
+<img width="1555" height="320" alt="Screenshot 2025-11-25 223755" src="https://github.com/user-attachments/assets/2b19aa2d-64d1-4b82-a838-9f9ffcce81b1" />
+
+## **Updated Task in Program**
+
+<img width="980" height="615" alt="Screenshot 2025-11-25 222815" src="https://github.com/user-attachments/assets/c5a03283-ea1d-4d29-ba1a-3b7cbff9d107" />
+
+## **Updated Task in CSV File**
+
+<img width="361" height="201" alt="Screenshot 2025-11-25 223002" src="https://github.com/user-attachments/assets/b923fbef-bb45-4fed-b6b3-1954ae18ee21" />
+
+## **Dashboard in Program**
+
+<img width="996" height="906" alt="Screenshot 2025-11-25 223102" src="https://github.com/user-attachments/assets/5ae3fad0-2201-4f84-8b91-7b44bb8144b5" />
+
+## **Exception Handling**
+
+<img width="953" height="574" alt="Screenshot 2025-11-25 223158" src="https://github.com/user-attachments/assets/55aaf333-3971-4f79-a648-73da6a757b96" />
+
+## **Some Code Snippets**
+
+<img width="883" height="391" alt="Screenshot 2025-11-25 223311" src="https://github.com/user-attachments/assets/aa2972c5-02bf-44ce-8339-67b9350b7f6f" />
+
+<img width="843" height="397" alt="Screenshot 2025-11-25 223251" src="https://github.com/user-attachments/assets/d6ffa4bb-94fe-4bfe-9ee1-666e0358afa0" />
+
+<img width="883" height="391" alt="Screenshot 2025-11-25 223311" src="https://github.com/user-attachments/assets/a057cb2a-bea5-46c3-ac58-0b4735d3e644" />
+
+## Design Diagrams
+
+## **Use Case Diagram**
+
+<img width="1024" height="1024" alt="Use_Case_Diagram" src="https://github.com/user-attachments/assets/4e755369-3ede-4b7b-afe9-4787867f1e80" />
+
+## **Activity Diagram**
+
+<img width="1024" height="1536" alt="Activity_Diagram" src="https://github.com/user-attachments/assets/665133b1-973a-4468-b002-8738dd6f9c88" />
+
+## **WorkFlow Diagram**
+
+<img width="1024" height="1536" alt="Workflow_Diagram" src="https://github.com/user-attachments/assets/34c884e5-24a3-4f9e-9c69-babb2bd8ceee" />
+
+## **Sequence Diagram**
+
+<img width="1024" height="1536" alt="Sequence_Diagram" src="https://github.com/user-attachments/assets/e8091adf-b604-424c-af80-f3604d502e25" />
+
+## **Component Diagram**
+
+<img width="1024" height="1024" alt="Component_Diagram" src="https://github.com/user-attachments/assets/bd315fdc-2788-4af1-806f-afa4065ef1f6" />
+
+## **ER Diagram**
+
+<img width="1024" height="1024" alt="ER_Diagram" src="https://github.com/user-attachments/assets/f6ede8e2-2b9b-4a85-9800-da62240e42ca" />
