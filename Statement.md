@@ -1,75 +1,53 @@
-1️⃣ Problem Statement
+## Project Title: Student Wellness Assistant
 
-Brain tumors are life-threatening and require early and accurate detection for effective treatment. Analyzing MRI scans manually is:
+## Problem Statement
+College students often struggle with managing their daily routines, especially during exam seasons or busy weeks. Sleep schedules become irregular, study hours vary a lot, stress increases without warning, and tasks pile up unnoticed. Most students don’t track their habits, which makes it harder to understand what’s affecting their productivity or overall well-being. The problem is that there is no simple tool that helps a student monitor their routine and also manage academic deadlines in one place.
+The Student Wellness Assistant aims to solve this by offering a small, easy-to-use system that records daily habits, organizes tasks, and gives basic insights to prevent burnout.
 
-⚠️ Time-consuming
+## Scope of the Project
+The project focuses on three main areas:
 
-⚠️ Requires expert radiologists
+• **Daily Routine Tracking:**
+  Students can record sleep hours, study hours, mood rating, steps/activity, and notes.
 
-⚠️ Prone to human error
+• **Task Management:**
+  Users can add assignments, exams, personal tasks, deadlines, and importance levels.
 
-This project solves that by developing an AI-powered tumor detection system using YOLOv12, enabling fast, reliable detection of tumor regions from MRI images. The goal is to build a simple, accessible, and high-accuracy tool for educational and research use.
+• **Wellness Analysis & Recommendations:**
+  The system calculates weekly averages, predicts burnout levels, and lists urgent tasks.
 
-2️⃣ Scope of the Project
+The scope is limited to a console-based Python program that uses CSV files for storage. It is designed to stay simple while still being useful in day-to-day student life. The project does not include a GUI or machine learning model yet, but it can be extended later.
 
-This project covers:
+## Target Users
 
-🎯 Training YOLOv12 on MRI brain scan datasets
+The primary users are college students who want to understand their daily habits better and manage their academic responsibilities more clearly.
+It can also be helpful for:
 
-🎯 Detecting tumor regions using bounding boxes
+• Students preparing for exams
 
-🎯 Providing a ready-to-use weight file (best.pt)
+• Students struggling with time management
 
-🎯 A clean inference notebook for easy testing
+• Anyone who wants a simple way to organize study routines and personal tasks
 
-🎯 Sample images for quick demo
+## High-Level Features
 
-🎯 Modular code that can be extended to Multi-class tumor detection
+• **Daily Log Module:**
+  Add sleep hours, study time, mood rating, steps/activity, and notes.
 
+• **Task Management Module:**
+  Add tasks with due dates and importance levels; store them in CSV format.
 
+• **Daily-Life Task Import:**
+  Option to load default everyday tasks from a separate CSV file.
 
+• **Dashboard & Weekly Insights:**
+  View 7-day averages for sleep, study, mood, and activity.
 
-Segmentation models
+• **Burnout Risk Estimation:**
+  A simple rule-based calculation that shows Low, Medium, or High burnout risk.
 
-Real-time detection
+• **Task Browser:**
+  View all tasks sorted by urgency; see the top 5 most urgent tasks; select a task to focus on.
 
-Web or mobile deployment
-
-🚫 Out of scope (for now):
-
-Medical-grade diagnosis
-
-3D volumetric MRI scans
-
-Pixel-wise segmentation masks
-
-3️⃣ Target Users
-
-This project is ideal for:
-
-👨‍🎓 Students learning AI / ML / deep learning
-
-🧑‍🔬 Researchers in medical imaging
-
-💻 Developers exploring YOLO workflows
-
-📚 Educators needing teaching material
-
-🧪 Anyone who wants to test MRI detection systems
-
-
-⚠️ Note: This project is for educational and research purposes only.
-
-4️⃣ High-Level Features
-
-✨ YOLOv12-Based Detection Fast and highly accurate tumor bounding-box predictions.
-
-📦 Pre-trained Model (best.pt) Included Start testing immediately — no training required.
-
-📓 Easy-to-Run Inference Notebook (Test.ipynb) Upload an MRI image → get detection results in seconds.
-
-🖼 Sample Test Images Provided Located in test_images/, ready for demo.
-
-🛠 Modular & Extensible Code Clean codebase ready for further development.
-
-🌩 Colab-Friendly Workflow No environment headaches — everything works directly in Google Colab.
+• **CSV-Based Storage:**
+  All data is stored locally in easy-to-read CSV files.
